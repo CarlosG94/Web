@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F32AEF701A050DD7006245B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32AEF6F1A050DD7006245B4 /* AppDelegate.swift */; };
+		F32AEF731A050DD7006245B4 /* FibonacciSequenceApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F32AEF711A050DD7006245B4 /* FibonacciSequenceApp.xcdatamodeld */; };
+		F32AEF751A050DD7006245B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32AEF741A050DD7006245B4 /* ViewController.swift */; };
+		F32AEF781A050DD7006245B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32AEF761A050DD7006245B4 /* Main.storyboard */; };
+		F32AEF7A1A050DD7006245B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32AEF791A050DD7006245B4 /* Images.xcassets */; };
+		F32AEF7D1A050DD7006245B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F32AEF7B1A050DD7006245B4 /* LaunchScreen.xib */; };
+		F32AEF891A050DD7006245B4 /* FibonacciSequenceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32AEF881A050DD7006245B4 /* FibonacciSequenceAppTests.swift */; };
+		F3C327F11A098FEB004CE069 /* FiboSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C327F01A098FEB004CE069 /* FiboSequence.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F32AEF831A050DD7006245B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F32AEF621A050DD7006245B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32AEF691A050DD7006245B4;
+			remoteInfo = FibonacciSequenceApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F32AEF6A1A050DD7006245B4 /* FibonacciSequenceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FibonacciSequenceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32AEF6E1A050DD7006245B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32AEF6F1A050DD7006245B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F32AEF721A050DD7006245B4 /* FibonacciSequenceApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FibonacciSequenceApp.xcdatamodel; sourceTree = "<group>"; };
+		F32AEF741A050DD7006245B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F32AEF771A050DD7006245B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F32AEF791A050DD7006245B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F32AEF7C1A050DD7006245B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F32AEF821A050DD7006245B4 /* FibonacciSequenceAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FibonacciSequenceAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32AEF871A050DD7006245B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32AEF881A050DD7006245B4 /* FibonacciSequenceAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FibonacciSequenceAppTests.swift; sourceTree = "<group>"; };
+		F3C327F01A098FEB004CE069 /* FiboSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FiboSequence.swift; path = ../../../../../CarlosGutierrez/Development/iOSProjects/FibonacciSequenceApp/FibonacciSequenceApp/FiboSequence.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F32AEF671A050DD7006245B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32AEF7F1A050DD7006245B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F32AEF611A050DD7006245B4 = {
+			isa = PBXGroup;
+			children = (
+				F32AEF6C1A050DD7006245B4 /* FibonacciSequenceApp */,
+				F32AEF851A050DD7006245B4 /* FibonacciSequenceAppTests */,
+				F32AEF6B1A050DD7006245B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F32AEF6B1A050DD7006245B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F32AEF6A1A050DD7006245B4 /* FibonacciSequenceApp.app */,
+				F32AEF821A050DD7006245B4 /* FibonacciSequenceAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F32AEF6C1A050DD7006245B4 /* FibonacciSequenceApp */ = {
+			isa = PBXGroup;
+			children = (
+				F32AEF6F1A050DD7006245B4 /* AppDelegate.swift */,
+				F32AEF741A050DD7006245B4 /* ViewController.swift */,
+				F32AEF761A050DD7006245B4 /* Main.storyboard */,
+				F32AEF791A050DD7006245B4 /* Images.xcassets */,
+				F32AEF7B1A050DD7006245B4 /* LaunchScreen.xib */,
+				F32AEF711A050DD7006245B4 /* FibonacciSequenceApp.xcdatamodeld */,
+				F32AEF6D1A050DD7006245B4 /* Supporting Files */,
+				F3C327F01A098FEB004CE069 /* FiboSequence.swift */,
+			);
+			path = FibonacciSequenceApp;
+			sourceTree = "<group>";
+		};
+		F32AEF6D1A050DD7006245B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F32AEF6E1A050DD7006245B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F32AEF851A050DD7006245B4 /* FibonacciSequenceAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F32AEF881A050DD7006245B4 /* FibonacciSequenceAppTests.swift */,
+				F32AEF861A050DD7006245B4 /* Supporting Files */,
+			);
+			path = FibonacciSequenceAppTests;
+			sourceTree = "<group>";
+		};
+		F32AEF861A050DD7006245B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F32AEF871A050DD7006245B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F32AEF691A050DD7006245B4 /* FibonacciSequenceApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32AEF8C1A050DD7006245B4 /* Build configuration list for PBXNativeTarget "FibonacciSequenceApp" */;
+			buildPhases = (
+				F32AEF661A050DD7006245B4 /* Sources */,
+				F32AEF671A050DD7006245B4 /* Frameworks */,
+				F32AEF681A050DD7006245B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FibonacciSequenceApp;
+			productName = FibonacciSequenceApp;
+			productReference = F32AEF6A1A050DD7006245B4 /* FibonacciSequenceApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F32AEF811A050DD7006245B4 /* FibonacciSequenceAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32AEF8F1A050DD7006245B4 /* Build configuration list for PBXNativeTarget "FibonacciSequenceAppTests" */;
+			buildPhases = (
+				F32AEF7E1A050DD7006245B4 /* Sources */,
+				F32AEF7F1A050DD7006245B4 /* Frameworks */,
+				F32AEF801A050DD7006245B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F32AEF841A050DD7006245B4 /* PBXTargetDependency */,
+			);
+			name = FibonacciSequenceAppTests;
+			productName = FibonacciSequenceAppTests;
+			productReference = F32AEF821A050DD7006245B4 /* FibonacciSequenceAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F32AEF621A050DD7006245B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Carlos;
+				TargetAttributes = {
+					F32AEF691A050DD7006245B4 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F32AEF811A050DD7006245B4 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F32AEF691A050DD7006245B4;
+					};
+				};
+			};
+			buildConfigurationList = F32AEF651A050DD7006245B4 /* Build configuration list for PBXProject "FibonacciSequenceApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F32AEF611A050DD7006245B4;
+			productRefGroup = F32AEF6B1A050DD7006245B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F32AEF691A050DD7006245B4 /* FibonacciSequenceApp */,
+				F32AEF811A050DD7006245B4 /* FibonacciSequenceAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F32AEF681A050DD7006245B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32AEF781A050DD7006245B4 /* Main.storyboard in Resources */,
+				F32AEF7D1A050DD7006245B4 /* LaunchScreen.xib in Resources */,
+				F32AEF7A1A050DD7006245B4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32AEF801A050DD7006245B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F32AEF661A050DD7006245B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32AEF751A050DD7006245B4 /* ViewController.swift in Sources */,
+				F32AEF701A050DD7006245B4 /* AppDelegate.swift in Sources */,
+				F3C327F11A098FEB004CE069 /* FiboSequence.swift in Sources */,
+				F32AEF731A050DD7006245B4 /* FibonacciSequenceApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32AEF7E1A050DD7006245B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32AEF891A050DD7006245B4 /* FibonacciSequenceAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F32AEF841A050DD7006245B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32AEF691A050DD7006245B4 /* FibonacciSequenceApp */;
+			targetProxy = F32AEF831A050DD7006245B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F32AEF761A050DD7006245B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32AEF771A050DD7006245B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F32AEF7B1A050DD7006245B4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32AEF7C1A050DD7006245B4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F32AEF8A1A050DD7006245B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F32AEF8B1A050DD7006245B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F32AEF8D1A050DD7006245B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FibonacciSequenceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F32AEF8E1A050DD7006245B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FibonacciSequenceApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F32AEF901A050DD7006245B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FibonacciSequenceAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FibonacciSequenceApp.app/FibonacciSequenceApp";
+			};
+			name = Debug;
+		};
+		F32AEF911A050DD7006245B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FibonacciSequenceAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FibonacciSequenceApp.app/FibonacciSequenceApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F32AEF651A050DD7006245B4 /* Build configuration list for PBXProject "FibonacciSequenceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32AEF8A1A050DD7006245B4 /* Debug */,
+				F32AEF8B1A050DD7006245B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32AEF8C1A050DD7006245B4 /* Build configuration list for PBXNativeTarget "FibonacciSequenceApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32AEF8D1A050DD7006245B4 /* Debug */,
+				F32AEF8E1A050DD7006245B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32AEF8F1A050DD7006245B4 /* Build configuration list for PBXNativeTarget "FibonacciSequenceAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32AEF901A050DD7006245B4 /* Debug */,
+				F32AEF911A050DD7006245B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F32AEF711A050DD7006245B4 /* FibonacciSequenceApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F32AEF721A050DD7006245B4 /* FibonacciSequenceApp.xcdatamodel */,
+			);
+			currentVersion = F32AEF721A050DD7006245B4 /* FibonacciSequenceApp.xcdatamodel */;
+			path = FibonacciSequenceApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F32AEF621A050DD7006245B4 /* Project object */;
+}

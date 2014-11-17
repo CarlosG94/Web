@@ -1,0 +1,118 @@
+@font-face {
+	src: url(fonts/CABIN.ttf);
+	font-family: cabin;
+}
+
+/****************************
+General
+****************************/
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	background: url(images/bg.JPG) no-repeat center center fixed;
+	background-size: cover;
+}
+
+/****************************
+Header
+****************************/
+
+
+.wrapper .title {
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+	font-size: 3.7em;
+	text-shadow: black 0px 0px 3px;
+	border-bottom: 1px solid #fff;
+	font-family: cabin;
+	font-family: 'Playfair Display', serif;
+	width: 10em;
+	padding-top: 18%;
+}
+
+
+/****************************
+Icons primary
+****************************/
+
+.wrapper .primary {
+	text-align: center;
+	margin-top: 1%;
+	text-shadow: black 0px 0px 2px;
+}
+
+.wrapper .primary .projectsicon {
+	text-decoration: none;
+}
+.wrapper .primary a {
+	text-decoration: none;
+}
+
+.wrapper .primary .abouticon {
+	text-decoration: none;
+	margin-right: 70px;
+}
+
+.wrapper .primary .blogicon {
+	text-decoration: none;
+}
+
+/****************************
+Icons secondary
+****************************/
+
+.wrapper .secondary {
+	text-align: center;
+	margin-top: 20.5%;
+	padding-bottom: 10px;
+}
+
+.wrapper .secondary .twittericon {
+	text-decoration: none;
+}
+
+.wrapper .secondary .linkedinicon {
+	text-decoration: none;
+}
+
+.wrapper .secondary .mailicon {
+	text-decoration: none;
+}
+
+/****************************
+Projects Content
+****************************/
+
+#main {
+	
+}
+
+/****************************
+Responsive
+****************************/
+
+@media (max-width: 700px) {
+	.wrapper .title {
+		font-size: 3em;
+	}
+}
+
+@media (max-width: 500px) {
+	.wrapper .title {
+		font-size: 2.5em;
+		margin-bottom: 40px;
+		border-bottom: 1px solid #ddd;
+	}
+
+
+	.wrapper .primary span{
+		display: block;
+		margin:0!important;
+	}
+
+}
